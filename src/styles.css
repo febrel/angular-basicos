@@ -1,1 +1,68 @@
-/* You can add global styles to this file, and also import other style files */
+* {
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: 200;
+  }
+  
+  html,
+  body {
+  
+    background: white;
+    margin: 20px;
+    -webkit-font-smoothing: antialiased;
+  }
+  
+  
+  .container {
+    height: 40vh;
+    width: 40vh;
+    background: darkolivegreen;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    border-radius: 20px;
+  }
+  
+  .box-1{
+    font-size: 20px;
+    color: white;
+  }
+  
+  button{
+    font-size: 20px;
+  }
+  
+  .titulo{
+      text-align: center;
+  }
+  
+  dd {
+    font-weight: bold;
+  }
+  
+  button {
+    background-color: black;
+    border-radius: 3px;
+    border: 0px;
+    color: white;
+    cursor: pointer;
+    margin-right: 5px;
+    margin-left: 5px;
+    padding: 2px 5px;
+  }
+  
+  button:hover {
+    background-color: #3e4144;
+  }
+  
+  button:focus {
+    outline: none;
+  }
+  
+  .p-1 {
+    padding: 1px;
+  }
+  
+  
+  
+  
